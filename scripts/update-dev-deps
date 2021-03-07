@@ -1,0 +1,17 @@
+#!/usr/bin/env bash
+
+declare -a deps=(
+  black
+  bandit
+  safety
+  sphinx
+  pytest-cov
+  codecov
+  pytest
+  flake8
+)
+
+for dep in ${deps[@]}; do
+  poetry remove --dev $dep
+  poetry add --dev $dep
+done
