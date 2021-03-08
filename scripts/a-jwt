@@ -6,23 +6,12 @@ import jwt
 import time
 
 with open("./public.key") as f:
-  public = f.read()
+    public = f.read()
 
 with open("./private.key") as f:
-  private = f.read()
+    private = f.read()
 
-payload = {
-  "iat": int(time.time()),
-  "iss": "pladdy-jwt",
-  "aud": "pladdy-server"
-}
+payload = {"iat": int(time.time()), "iss": "pladdy-jwt", "aud": "pladdy-server"}
 
 encoded = jwt.encode(payload, private, algorithm="RS256")
-print("JWT")
 print(encoded)
-print()
-
-decoded = jwt.decode(
-  encoded, public, audience="pladdy-server", algorithms=["RS256"])
-print("Payload")
-print(decoded)

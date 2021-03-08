@@ -23,33 +23,40 @@ jwty-mcjwt-face
   :scale: 100%
   :target: https://lbesson.mit-license.org/
 
+This project is an excuse to play with Falcon and pyjwt.
+
+The keys in the repo are generated with ``make keys`` and are useless.
+
 Installation
 ------------
+
+``make install``
 
 Dependencies
 ~~~~~~~~~~~~
 
+- `Falcon <https://falcon.readthedocs.io/en/stable/index.html>`_
+- `Gunicorn <https://gunicorn.org/>`_
 - `PyJWT <https://pyjwt.readthedocs.io/en/latest/>`_
 
 Usage
 -----
 
-Development
------------
+.. code-block:: shell
 
-Testing
-~~~~~~~
+  make keys
+  make run-local
+  # in another terminal
 
-Versioning
-~~~~~~~~~~
-
-Deploying
-~~~~~~~~~
+  make a-jwt
+  # copy this jwt that gets printed out
+  curl -v localhost:8000/decode?jwt=<paste your jwt here>
 
 References
 ----------
 
 - `JWT Intro <https://jwt.io/introduction/>`_
+- `Dredd Testing <https://github.com/apiaryio/dredd>`_
 
 README
 ~~~~~~

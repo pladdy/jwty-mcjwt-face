@@ -71,8 +71,8 @@ requirements.txt:
 requirements-dev.txt:
 	dephell deps converts --envs dev --to-format=pip --to-path=$@
 
-run-debug:
-	DEBUG=1 FLASK_ENV=development poetry run python $(APP)/app.py
+run-local:
+	poetry run gunicorn jwty_mcjwt_face.app:api
 
 test:
 	$(TEST)
