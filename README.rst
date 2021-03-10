@@ -1,6 +1,10 @@
 jwty-mcjwt-face
 ================
 
+.. image:: https://api.codacy.com/project/badge/Grade/620cb1a202264581a21ba3fa70f17c73
+   :alt: Codacy Badge
+   :target: https://app.codacy.com/gh/pladdy/jwty-mcjwt-face?utm_source=github.com&utm_medium=referral&utm_content=pladdy/jwty-mcjwt-face&utm_campaign=Badge_Grade_Settings
+
 |build-status| |code coverage| |codacy| |MIT license|
 
 .. |build-status| image:: https://travis-ci.com/pladdy/jwty-mcjwt-face.svg?branch=master
