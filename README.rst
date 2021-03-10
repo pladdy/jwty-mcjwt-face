@@ -3,20 +3,20 @@ jwty-mcjwt-face
 
 |build-status| |code coverage| |codacy| |MIT license|
 
-.. |build-status| image:: https://travis-ci.com/pladdy/jwty-mcjwt-face.svg?branch=master
+.. |build-status| image:: https://travis-ci.com/pladdy/jwty-mcjwt-face.svg?branch=main
     :alt: build status
     :scale: 100%
     :target: https://travis-ci.com/pladdy/jwty-mcjwt-face
 
-.. |code coverage| image:: https://codecov.io/gh/pladdy/jwty-mcjwt-face/branch/master/graph/badge.svg
+.. |code coverage| image:: https://codecov.io/gh/pladdy/jwty-mcjwt-face/branch/main/graph/badge.svg?token=2mtBh3kD2L
   :alt: code coverage
   :scale: 100%
   :target: https://codecov.io/gh/pladdy/jwty-mcjwt-face
 
-.. |codacy| image:: https://app.codacy.com/project/badge/Grade/<fix me with codacy link>´
+.. |codacy| image:: https://app.codacy.com/project/badge/Grade/9103e9eb1fcd460da5c2e29885400cb8
   :alt: codacy
   :scale: 100%
-  :target: https://www.codacy.com/manual/pladdy/jwty-mcjwt-face?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=pladdy/jwty-mcjwt-face&amp;utm_campaign=Badge_Grade
+  :target: https://www.codacy.com/gh/pladdy/jwty-mcjwt-face/dashboard
 
 .. |MIT license| image:: https://img.shields.io/badge/License-MIT-blue.svg
   :alt: MIT license

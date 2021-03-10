@@ -26,6 +26,9 @@ clean:
 	rm .coverage coverage.xml
 	rm -rf .pytest_cache htmlcov
 
+codecov:
+	source .env && poetry run codecov
+
 cov-reports:
 	$(TEST) --cov-report html
 
