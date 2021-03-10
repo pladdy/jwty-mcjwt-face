@@ -25,7 +25,8 @@ jwty-mcjwt-face
 
 This project is an excuse to play with Falcon and pyjwt.
 
-The keys in the repo are generated with ``make keys`` and are useless.
+The keys in the repo are generated with ``make keys`` and are useless.  Even
+so, don't use them...they are compromised.
 
 Installation
 ------------
