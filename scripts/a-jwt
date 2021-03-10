@@ -1,0 +1,17 @@
+#!/usr/bin/env python
+
+# NOTE: run with `poetry run`
+
+import jwt
+import time
+
+with open("./public.key") as f:
+    public = f.read()
+
+with open("./private.key") as f:
+    private = f.read()
+
+payload = {"iat": int(time.time()), "iss": "pladdy-jwt", "aud": "pladdy-server"}
+
+encoded = jwt.encode(payload, private, algorithm="RS256")
+print(encoded)
