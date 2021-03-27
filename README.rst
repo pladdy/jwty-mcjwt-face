@@ -28,6 +28,8 @@ This project is an excuse to play with Falcon and pyjwt.
 The keys in the repo are generated with ``make keys`` and are useless.  Even
 so, don't use them...they are compromised.
 
+One can also make keys using `MkJWK.org <https://mkjwk.org/>`_
+
 Installation
 ------------
 

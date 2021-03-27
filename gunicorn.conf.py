@@ -2,6 +2,8 @@
 reload = True
 
 # logging
+accesslog = "-"
+errorlog = "-"
 loglevel = "debug"
 
 # process naming
